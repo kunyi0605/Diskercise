@@ -6,7 +6,7 @@ from os import listdir
 from os.path import join
 from shutil import copyfile
 
-LogOutputPaht='C:\\Jenkins\\Diskercise\\Report'
+LogOutputPaht='D:\\Jenkins\\Diskercise\\Report'
 
 def printStatus(mainWindow):
     content = mainWindow.list_control_identifiers()[0]
