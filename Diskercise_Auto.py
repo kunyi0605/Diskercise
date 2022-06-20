@@ -24,7 +24,7 @@ window['Data TypeComboBox'].select(sys.argv[6])
 window['Start'].click()
 myScreenshot = pyautogui.screenshot()
 myScreenshot.save(r'D:\\Jenkins\\DiskerCise\\DiskerCise_screenshot.png')
-run_time = os.getenv('run_time_minutes')
+run_time = os.getenv('Test_Timing')
 print('getenv run_time')
 print(run_time)
 runtime = sys.argv[6]
